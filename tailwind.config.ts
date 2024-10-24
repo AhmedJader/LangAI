@@ -22,6 +22,7 @@ const config: Config = {
     },
   },
   plugins: [
+    require("preline/plugin"),
     function ({ matchUtilities, theme }: any) {
       matchUtilities(
         {
